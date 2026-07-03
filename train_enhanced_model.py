@@ -1,5 +1,5 @@
 """
-IPL v8 — 11-player XI features, roles, memory-optimized
+IPL v2 — 11-player XI features, roles, memory-optimized
 """
 import pandas as pd
 import numpy as np
