@@ -445,3 +445,5 @@ python build_player_stats.py
 ---
 
 ## License
+
+MIT
