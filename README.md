@@ -6,7 +6,7 @@ Unlike typical cricket predictors that use only match-level aggregates (current 
 
 ---
 
-## 🧠 The Problem
+## The Problem
 
 IPL is unpredictable because team composition matters as much as match state. Two teams at 80/2 in the 10th over can have wildly different projected scores depending on whether the batting XI has deep batting or the bowling attack has death-over specialists.
 
@@ -27,7 +27,7 @@ IPL is unpredictable because team composition matters as much as match state. Tw
 
 ---
 
-## ✨ Features
+## Features
 
 - **Score Prediction** — Gradient Boosting Regressor predicts final innings total from current match state
 - **Win Probability** — Random Forest Classifier estimates chase success likelihood
@@ -41,7 +41,7 @@ IPL is unpredictable because team composition matters as much as match state. Tw
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Clone, Install & Run
 
@@ -105,7 +105,7 @@ Open [`ipl_predictor_colab.ipynb`](ipl_predictor_colab.ipynb), upload `ipl.csv`,
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 IPL-Score-And-Chase-Predictor/
@@ -126,7 +126,7 @@ IPL-Score-And-Chase-Predictor/
 
 ---
 
-## 📊 How It Works
+## How It Works
 
 ### Data Pipeline
 
@@ -166,7 +166,7 @@ IPL-Score-And-Chase-Predictor/
 
 ---
 
-## 🔬 Feature Engineering
+## Feature Engineering
 
 ### Per-Player Slot Features
 
@@ -236,7 +236,7 @@ The app includes a built-in feature importance breakdown under the "Model Featur
 
 ---
 
-## 🧩 Model Architecture
+## Model Architecture
 
 ### Score Predictor: Gradient Boosting Regressor
 
@@ -285,7 +285,7 @@ random_state=42
 
 ---
 
-## 📐 Post-Processing & Recalibration
+## Post-Processing & Recalibration
 
 The raw model output is enhanced with post-processing to produce more realistic projections:
 
@@ -306,7 +306,7 @@ The V2 model was validated against the original using 6,926 real match predictio
 
 ---
 
-## 🖥️ How to Use the App
+## How to Use the App
 
 ### Match Predictor Tab
 
@@ -336,7 +336,7 @@ The V2 model was validated against the original using 6,926 real match predictio
 
 ---
 
-## ☁️ Live Demo
+## Live Demo
 
 [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ipl-score-and-chase-predictor-06.streamlit.app)
 
@@ -345,7 +345,7 @@ Visit: [https://ipl-score-and-chase-predictor-06.streamlit.app](https://ipl-scor
 
 ---
 
-## 📥 Datasets
+## Datasets
 
 ### `ipl.csv` — Ball-by-Ball Data
 
@@ -372,7 +372,7 @@ python build_player_stats.py
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <p align="center">
   <img src="screenshots/Main Interface of quick mode - First Innings.png" alt="Quick Mode — First Innings" width="600"/>
